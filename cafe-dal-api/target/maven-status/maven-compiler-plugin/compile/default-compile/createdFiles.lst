@@ -1,0 +1,10 @@
+com\myCafe\dal\entities\ProductInOrderEntity.class
+com\myCafe\dal\entities\UserEntity.class
+com\myCafe\dal\repository\OrderRepository.class
+com\myCafe\dal\repository\UserRepository.class
+com\myCafe\dal\entities\TableEntity.class
+com\myCafe\dal\entities\OrderEntity.class
+com\myCafe\dal\repository\ProductRepository.class
+com\myCafe\dal\entities\ProductEntity.class
+com\myCafe\dal\repository\TableRepository.class
+com\myCafe\dal\repository\ProductInOrderRepository.class
