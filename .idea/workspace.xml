@@ -2,266 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11c5e158-a70b-4270-9912-6c64b75a201b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/dto/PagerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/ProductInOrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/cafe-common-2.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/classes/com/myCafe/common/dto/PagerModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/classes/com/myCafe/common/enums/OrderStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/classes/com/myCafe/common/enums/ProductInOrderStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/classes/com/myCafe/common/enums/UserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/ProductInOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductInOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/TableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/exception/DuplicateEntryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/exception/InternalErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/exception/InvalidObjectException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/helper/ServiceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductInOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserserviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/cafe-core-api-2.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/converter/Converter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/ProductInOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/ProductInOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/TableService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/exception/DuplicateEntryException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/exception/InternalErrorException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/exception/InvalidObjectException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/helper/ServiceHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/ProductInOrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/TableServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/UserserviceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-core-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductInOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/ProductInOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/TableRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/cafe-dal-api-2.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/OrderEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/ProductEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/ProductInOrderEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/TableEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/UserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/OrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/ProductInOrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/ProductRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/TableRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/MainWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/AppConfigImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/AuthUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/AuthenticationSuccessHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createTable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/manager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/products.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateTable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/waiter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.bootstrap.min.css+font-awesome.min.css,Mcc.IDMzkxuERs.css.pagespeed.cf.9_8KzKNf-A.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.bootstrap.min.css.pagespeed.cf.ANNqluioKf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.flexslider.css.pagespeed.cf.sl6fh8uERZ.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.font-awesome.min.css.pagespeed.cf.jBrWCt-D4j.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.style.css+style-less.css,Mcc.U0a7i6ixff.css.pagespeed.cf.gaKpoO-umx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/logIn-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/signUp-reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/signUp-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/SmoothScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.OScMObMk17.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/bootstrap.min.js+SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.KaqdkkGUdx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/bootstrap.min.js.pagespeed.jm.ACjAVc6v8f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/gmap3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/images/mapicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery-1.11.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery-2.1.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery-migrate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.bxslider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.donutchart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.flexslider-min.js.pagespeed.jm.J4Mx_AcX4u.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.gmap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.inview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.isotope.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.isotope.perfectmasonry.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.js.pagespeed.jm.J-8M9bCq0j.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.scrollTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.tabs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.tipTip.minified.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.viewport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jsplugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/logIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/raphael.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/signUp-main-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/signUp-modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/signUp-velocity.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/cafe-web-2.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/cafe-web-2.0.2.RELEASE.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createTable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/logIn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/manager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/orders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/products.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/updateTable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/waiter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.bootstrap.min.css+font-awesome.min.css,Mcc.IDMzkxuERs.css.pagespeed.cf.9_8KzKNf-A.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.bootstrap.min.css.pagespeed.cf.ANNqluioKf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.flexslider.css.pagespeed.cf.sl6fh8uERZ.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.font-awesome.min.css.pagespeed.cf.jBrWCt-D4j.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.style.css+style-less.css,Mcc.U0a7i6ixff.css.pagespeed.cf.gaKpoO-umx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/logIn-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/signUp-reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/signUp-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/SmoothScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.OScMObMk17.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/bootstrap.min.js+SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.KaqdkkGUdx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/bootstrap.min.js.pagespeed.jm.ACjAVc6v8f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/gmap3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/images/mapicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery-1.11.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery-2.1.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery-migrate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.bxslider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.donutchart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.flexslider-min.js.pagespeed.jm.J4Mx_AcX4u.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.gmap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.inview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.isotope.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.isotope.perfectmasonry.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.js.pagespeed.jm.J-8M9bCq0j.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.scrollTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.tabs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.tipTip.minified.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.viewport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jsplugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/logIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/raphael.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/signUp-main-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/signUp-modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/signUp-velocity.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/MainWebApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/config/AppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/config/impl/AppConfigImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/config/impl/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/AuthenticationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/ManagerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/RegistrationController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/RegistrationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/TableController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/WaiterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/security/AuthUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/security/AuthenticationSuccessHandlerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/security/UserDetailServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafeManager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/exceptions/DuplicateEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/exceptions/DuplicateEntityException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/my.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-common/target/cafe-common-2.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-common/target/cafe-common-2.0.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-common/target/classes/com/myCafe/common/enums/ProductInOrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-common/target/classes/com/myCafe/common/enums/ProductInOrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/ProductInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/ProductInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductInOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductInOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/TableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/TableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/exception/DuplicateEntryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/exception/InternalErrorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/helper/ServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/helper/ServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserserviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/cafe-core-api-2.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/cafe-core-api-2.0.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/converter/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/converter/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/ProductInOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/ProductInOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/ProductInOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/ProductInOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/TableService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/TableService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/exception/DuplicateEntryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/exception/InternalErrorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/helper/ServiceHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/helper/ServiceHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/ProductInOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/ProductInOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/TableServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/TableServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/UserserviceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/service/impl/UserserviceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-core-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-core-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductInOrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductInOrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/TableRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/TableRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/cafe-dal-api-2.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/cafe-dal-api-2.0.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/OrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/OrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/ProductInOrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/ProductInOrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/TableEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/TableEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/entities/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/ProductInOrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/classes/com/myCafe/dal/repository/ProductInOrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-dal-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-dal-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/MainWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/MainWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/AppConfigImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/AppConfigImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createTable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createTable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateTable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateTable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/waiter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/waiter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.bootstrap.min.css+font-awesome.min.css,Mcc.IDMzkxuERs.css.pagespeed.cf.9_8KzKNf-A.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.bootstrap.min.css.pagespeed.cf.ANNqluioKf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.flexslider.css.pagespeed.cf.sl6fh8uERZ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.font-awesome.min.css.pagespeed.cf.jBrWCt-D4j.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.style.css+style-less.css,Mcc.U0a7i6ixff.css.pagespeed.cf.gaKpoO-umx.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/SmoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.OScMObMk17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/bootstrap.min.js+SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.KaqdkkGUdx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/bootstrap.min.js.pagespeed.jm.ACjAVc6v8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/gmap3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/images/mapicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery-migrate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.bxslider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.donutchart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.flexslider-min.js.pagespeed.jm.J4Mx_AcX4u.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.gmap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.inview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.isotope.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.isotope.perfectmasonry.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.js.pagespeed.jm.J-8M9bCq0j.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.prettyPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.tabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.tipTip.minified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jquery.viewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/jsplugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/raphael.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/signUp-modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/cafe-web-2.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/cafe-web-2.0.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/cafe-web-2.0.2.RELEASE.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/cafe-web-2.0.2.RELEASE.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createTable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createTable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/logIn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/logIn.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/orders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/updateTable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/updateTable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/waiter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/waiter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.bootstrap.min.css+font-awesome.min.css,Mcc.IDMzkxuERs.css.pagespeed.cf.9_8KzKNf-A.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.bootstrap.min.css.pagespeed.cf.ANNqluioKf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.flexslider.css.pagespeed.cf.sl6fh8uERZ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.font-awesome.min.css.pagespeed.cf.jBrWCt-D4j.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/css/A.style.css+style-less.css,Mcc.U0a7i6ixff.css.pagespeed.cf.gaKpoO-umx.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/SmoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.OScMObMk17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/bootstrap.min.js+SmoothScroll.js+respond.min.js+html5shiv.js+custom.js.pagespeed.jc.KaqdkkGUdx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/bootstrap.min.js.pagespeed.jm.ACjAVc6v8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/gmap3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/images/mapicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery-migrate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.bxslider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.donutchart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.flexslider-min.js.pagespeed.jm.J4Mx_AcX4u.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.gmap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.inview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.isotope.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.isotope.perfectmasonry.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.js.pagespeed.jm.J-8M9bCq0j.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.prettyPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.tabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.tipTip.minified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jquery.viewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/jsplugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/raphael.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/static/js/signUp-modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/MainWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/MainWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/config/impl/AppConfigImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/config/impl/AppConfigImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/ManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/TableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/TableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/WaiterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/classes/com/myCafe/web/controller/WaiterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cafe-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -294,11 +214,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="products.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/products.jsp">
+      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="294">
+              <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -306,11 +226,50 @@
       <file leaf-file-name="WaiterController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+            <state relative-caret-position="167">
+              <caret line="48" column="9" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="48" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="177" column="48" selection-end-line="193" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductInOrderServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductInOrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -318,73 +277,22 @@
       <file leaf-file-name="orders.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="157">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createProduct.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="editProductInOrder.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp">
+      <file leaf-file-name="CafeOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="374">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodProxy.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductInOrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductInOrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductInOrderServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductInOrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="93" column="101" selection-start-line="93" selection-start-column="101" selection-end-line="93" selection-end-column="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -403,17 +311,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>manager/waiter/delete</find>
-      <find>manager/table/add</find>
-      <find>/manager/update/table</find>
-      <find>/manager/product/add</find>
-      <find>waiter/order/add</find>
-      <find>waiter/order</find>
-      <find>waiter/add/product</find>
-      <find>INITIAL_PAGE_SIZE</find>
-      <find>manager/update/table</find>
-      <find>order/</find>
-      <find>/productInOrder</find>
       <find>/manager/</find>
       <find>waiter/add</find>
       <find>redirect</find>
@@ -433,6 +330,17 @@
       <find>commandName</find>
       <find>getst</find>
       <find>orelse</find>
+      <find>/edit/</find>
+      <find>update order</find>
+      <find>&lt;script src=&quot;..</find>
+      <find>&lt;script src=&quot;.</find>
+      <find>an active</find>
+      <find>Edit</find>
+      <find>edit</find>
+      <find>productsInorder</find>
+      <find>amount</find>
+      <find>format</find>
+      <find>orpha</find>
     </findStrings>
     <replaceStrings>
       <replace>Integer</replace>
@@ -446,57 +354,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeUser.java" />
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/ProductInOrder.java" />
-        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserserviceImpl.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/login.css" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/js/logIn.js" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/AuthenticationController.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/AuthenticationSuccessHandlerImpl.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createTable.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/manager.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateTable.jsp" />
-        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java" />
-        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java" />
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/helper/ServiceHelper.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editOrder.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/register.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/OrderStatus.java" />
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateProductInOrder.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" />
-        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductEntity.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" />
         <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductInOrderEntity.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/waiter.jsp" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp" />
         <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/OrderRepository.java" />
         <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/ProductInOrderRepository.java" />
-        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java" />
         <option value="$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/ProductInOrderStatus.java" />
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductInOrderService.java" />
         <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductInOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/products.jsp" />
-        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/ProductInOrder.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/exception/DuplicateEntryException.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserserviceImpl.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UsersSrviceImpl.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductInOrderService.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/TableService.java" />
+        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/TableRepository.java" />
+        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/AppConfigImpl.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/MainWebApplication.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/managerChooser.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/my.css" />
         <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createTable.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createWaiter.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateOrder.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateTable.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/waiter.jsp" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java" />
+        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductEntity.java" />
+        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductInOrderEntity.java" />
+        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeTable.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/manager.jsp" />
+        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java" />
+        <option value="$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeOrder.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/helper/ServiceHelper.java" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp" />
+        <option value="$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java" />
       </list>
     </option>
   </component>
@@ -518,6 +426,47 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-core-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-core-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-dal-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-dal-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-dal-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cafe-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="parent-multi-module" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -536,7 +485,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="232" />
+    <option name="x" value="231" />
     <option name="y" value="15" />
     <option name="width" value="1460" />
     <option name="height" value="970" />
@@ -549,7 +498,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -636,7 +586,85 @@
               <item name="myCafe" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-core-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myCafe" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.myCafe.dal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.myCafe.dal" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.myCafe.dal" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-dal-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.myCafe.dal" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
@@ -693,6 +721,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="myCafe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myCafe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
@@ -753,6 +793,30 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parentmultimodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parentmultimodule" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -771,8 +835,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -780,7 +843,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="waiter&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java&#10;waiterco&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java&#10;productco&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;produc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;p&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;Productcontr&#9;PSI&#9;JAVA://com.myCafe.web.controller.ProductController&#10;Productcon&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;product&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-common/src/main/java/com/myCafe/common/enums/ProductInOrderStatus.java&#10;Productinorderst&#9;PSI&#9;JAVA://com.myCafe.common.enums.ProductInOrderStatus&#10;Productinorder&#9;PSI&#9;JAVA://com.myCafe.core.dto.ProductInOrder&#10;waiterc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java&#10;cafepro&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java&#10;productinordere&#9;PSI&#9;JAVA://com.myCafe.dal.entities.ProductInOrderEntity&#10;Cafepr&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java&#10;prod&#9;PSI&#9;JAVA://com.myCafe.web.controller.ProductController&#10;productinor&#9;PSI&#9;JAVA://com.myCafe.core.dto.ProductInOrder&#10;cafepr&#9;PSI&#9;JAVA://com.myCafe.core.dto.CafeProduct&#10;orderc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java&#10;userrol&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-common/src/main/java/com/myCafe/common/enums/UserRole.java&#10;Userrol&#9;PSI&#9;JAVA://com.myCafe.common.enums.UserRole&#10;Orderst&#9;PSI&#9;JAVA://com.myCafe.common.enums.OrderStatus&#10;cafeor&#9;PSI&#9;JAVA://com.myCafe.core.dto.CafeOrder&#10;useren&#9;PSI&#9;JAVA://com.myCafe.dal.entities.UserEntity&#10;webse&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java&#10;Conver&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java&#10;log&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp&#10;orderser&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java&#10;ordere&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java&#10;appl&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/resources/application.properties&#10;/reg&#9;null&#9;null&#10;Ordeser&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java&#10;productino&#9;PSI&#9;JAVA://com.myCafe.core.dto.ProductInOrder&#10;userco&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;user&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;Cafeord&#9;PSI&#9;JAVA://com.myCafe.core.dto.CafeOrder&#10;Useren&#9;PSI&#9;JAVA://com.myCafe.dal.entities.UserEntity&#10;usercontr&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;userc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;applicat&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/resources/application.properties&#10;Orderen&#9;PSI&#9;JAVA://com.myCafe.dal.entities.OrderEntity&#10;We&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java&#10;Userc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;Tableen&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java&#10;cafeuser&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeUser.java&#10;Conve&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java&#10;convert&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java&#10;cafet&#9;FILE&#9;jar://C:/Users/Armen/.m2/repository/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final-sources.jar!/org/hibernate/loader/plan/spi/CollectionAttributeFetch.java&#10;c&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;Usercon&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;Websec&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java" />
+    <property name="SearchEverywhereHistoryKey" value="waiterc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java&#10;cafet&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeTable.java&#10;tablec&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java&#10;tablese&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java&#10;managerc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java&#10;loaduser&#9;PSI&#9;JAVA://com.myCafe.web.security.UserDetailServiceImpl#loadUserByUsername&#10;usere&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java&#10;orderen&#9;PSI&#9;JAVA://com.myCafe.dal.entities.OrderEntity&#10;productcontr&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;appl&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/resources/application.properties&#10;waiter&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java&#10;waiterco&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java&#10;productco&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;produc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;p&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;Productcontr&#9;PSI&#9;JAVA://com.myCafe.web.controller.ProductController&#10;Productcon&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java&#10;product&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-common/src/main/java/com/myCafe/common/enums/ProductInOrderStatus.java&#10;Productinorderst&#9;PSI&#9;JAVA://com.myCafe.common.enums.ProductInOrderStatus&#10;Productinorder&#9;PSI&#9;JAVA://com.myCafe.core.dto.ProductInOrder&#10;cafepro&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java&#10;productinordere&#9;PSI&#9;JAVA://com.myCafe.dal.entities.ProductInOrderEntity&#10;Cafepr&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java&#10;prod&#9;PSI&#9;JAVA://com.myCafe.web.controller.ProductController&#10;productinor&#9;PSI&#9;JAVA://com.myCafe.core.dto.ProductInOrder&#10;cafepr&#9;PSI&#9;JAVA://com.myCafe.core.dto.CafeProduct&#10;orderc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java&#10;userrol&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-common/src/main/java/com/myCafe/common/enums/UserRole.java&#10;Userrol&#9;PSI&#9;JAVA://com.myCafe.common.enums.UserRole&#10;Orderst&#9;PSI&#9;JAVA://com.myCafe.common.enums.OrderStatus&#10;cafeor&#9;PSI&#9;JAVA://com.myCafe.core.dto.CafeOrder&#10;useren&#9;PSI&#9;JAVA://com.myCafe.dal.entities.UserEntity&#10;webse&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java&#10;Conver&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java&#10;log&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp&#10;orderser&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java&#10;ordere&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java&#10;/reg&#9;null&#9;null&#10;Ordeser&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java&#10;productino&#9;PSI&#9;JAVA://com.myCafe.core.dto.ProductInOrder&#10;userco&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;user&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;Cafeord&#9;PSI&#9;JAVA://com.myCafe.core.dto.CafeOrder&#10;Useren&#9;PSI&#9;JAVA://com.myCafe.dal.entities.UserEntity&#10;usercontr&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;userc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java&#10;applicat&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/resources/application.properties&#10;Orderen&#9;PSI&#9;JAVA://com.myCafe.dal.entities.OrderEntity&#10;We&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java&#10;Userc&#9;FILE&#9;file://C:/Users/Armen/IdeaProjects/parentmultimodule/cafe-web/src/main/java/com/myCafe/web/controller/UserController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -891,19 +954,28 @@
       <updated>1544215684607</updated>
       <workItem from="1544215689108" duration="52000000" />
       <workItem from="1544349027394" duration="134350000" />
-      <workItem from="1544532267006" duration="293000" />
+      <workItem from="1544532267006" duration="2195000" />
+      <workItem from="1545077388063" duration="17389000" />
     </task>
+    <task id="LOCAL-00001" summary="Created cafe management web app with spring boot.">
+      <created>1544532634665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544532634665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186643000" />
+    <option name="totallyTimeSpent" value="205934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.36510068" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.36510068" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
@@ -913,6 +985,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3644068" />
       <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32768363" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32909605" />
@@ -924,15 +997,14 @@
       <window_info content_ui="combo" x="576" y="174" width="384" height="476" id="Project" order="5" visible="true" weight="0.21006711" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32909605" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32768363" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32909605" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -941,23 +1013,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created cafe management web app with spring boot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created cafe management web app with spring boot." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java</url>
-          <line>36</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java</url>
-          <line>80</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserserviceImpl.java</url>
+          <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserServiceImpl.java</url>
           <line>87</line>
           <properties />
           <option name="timeStamp" value="42" />
@@ -967,12 +1043,6 @@
           <line>23</line>
           <properties />
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/AuthenticationController.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/AuthenticationSuccessHandlerImpl.java</url>
@@ -994,25 +1064,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java</url>
-          <line>50</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java</url>
-          <line>34</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java</url>
-          <line>43</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java</url>
-          <line>51</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
@@ -1029,390 +1099,442 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java</url>
-          <line>67</line>
+          <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java</url>
+          <line>51</line>
           <properties />
-          <option name="timeStamp" value="62" />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/UserDetailServiceImpl.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="77" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>productsInorder</expression-string>
+        <expression-string>tableRepository.saveAndFlush(converter.toEntity(table))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>productsInOrder</expression-string>
+        <expression-string>converter.toEntity(table)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request.getParameter(&quot;amount&quot;)</expression-string>
+        <expression-string>tableEntity</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request</expression-string>
+        <expression-string>converter</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>productInOrders</expression-string>
+        <expression-string>tableRepository.save(converter.toEntity(table))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tableRepository
-                .findAllByUserId(userId)</expression-string>
+        <expression-string>table</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>productRepository.findById(productId)</expression-string>
+        <expression-string>userservice
+                .getUserByUsername(username)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cafeProduct</expression-string>
+        <expression-string>serservice
+                .getUserByUsername(username)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>productInOrder</expression-string>
+        <expression-string>tableRepository.saveAndFlush(converter.toEntity(table)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/manager.jsp">
+    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        <state relative-caret-position="204">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/managerChooser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/UserDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/AuthenticationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createWaiter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editOrder.jsp" />
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editOrder.jsp" />
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/helper/ServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/RegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/UserRole.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/MainWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/OrderStatus.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeOrder.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/config/impl/AppConfigImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="745" selection-start-line="745" selection-end-line="745" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/A.bootstrap.min.css+font-awesome.min.css,Mcc.IDMzkxuERs.css.pagespeed.cf.9_8KzKNf-A.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/static/css/my.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="7179" column="27" lean-forward="true" selection-start-line="7179" selection-start-column="27" selection-end-line="7179" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createTable.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createWaiter.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductEntity.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/logIn.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="153">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/managerChooser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="66" />
+        <state relative-caret-position="-9">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateTable.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductInOrderEntity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/ProductEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/TableService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/AuthenticationController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/OrderRepository.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/TableController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="229">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/repository/ProductInOrderRepository.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/manager.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="153">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java">
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="663">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/security/UserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/OrderEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ManagerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="133">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/TableServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="201">
+          <caret line="87" column="105" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/UserserviceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="303">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/waiter.jsp">
+    <entry file="file://$PROJECT_DIR$/cafe-dal-api/src/main/java/com.myCafe.dal/entities/TableEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+          <folding>
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/ProductInOrder.java">
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/helper/ServiceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/addProductInOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/updateOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-common/src/main/java/com/myCafe/common/enums/ProductInOrderStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/createProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/ProductInOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductInOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="93" column="101" selection-start-line="93" selection-start-column="101" selection-end-line="93" selection-end-column="101" />
+        <state relative-caret-position="385">
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1421,49 +1543,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+        <state relative-caret-position="294">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/products.jsp">
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/dto/CafeOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="374">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/orders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/WaiterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+        <state relative-caret-position="167">
+          <caret line="48" column="9" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/java/com/myCafe/web/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="178">
+          <caret line="48" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="133">
+          <caret line="177" column="48" selection-end-line="193" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/editProductInOrder.jsp">
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/dto/CafeTable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state>
+          <folding>
+            <element signature="e#0#1465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/target/classes/META-INF/resources/WEB-INF/jsp/waiter.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-web/src/main/resources/META-INF/resources/WEB-INF/jsp/waiter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/target/classes/com/myCafe/core/converter/Converter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#7232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-core-api/src/main/java/com/myCafe/core/service/impl/ProductInOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
         </state>
       </provider>
     </entry>

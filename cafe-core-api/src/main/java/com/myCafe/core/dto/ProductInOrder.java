@@ -5,12 +5,12 @@ import com.myCafe.common.enums.ProductInOrderStatus;
 import java.util.Objects;
 
 public class ProductInOrder {
-    private Integer id;
-    private CafeProduct product;
-    private Integer amount;
-    private CafeOrder order;
-
     private ProductInOrderStatus status;
+    private CafeProduct product;
+    private CafeOrder order;
+    private Integer amount;
+    private Integer id;
+
 
     public ProductInOrder() {
     }

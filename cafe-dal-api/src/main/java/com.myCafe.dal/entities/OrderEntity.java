@@ -16,8 +16,11 @@ public class OrderEntity {
     private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "`TableId`")
+  //  @JoinColumn(name = "`TableId`")
     private TableEntity table;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "order")
+    private List<ProductInOrderEntity> productsInOrder;
 
     @Column(name = "`Status`", nullable = false)
     @Enumerated(EnumType.STRING)
@@ -27,9 +30,10 @@ public class OrderEntity {
         this.id = id;
     }
 
-    public OrderEntity (){
+    public OrderEntity() {
 
     }
+
     public Integer getId() {
         return id;
     }
@@ -52,6 +56,14 @@ public class OrderEntity {
 
     public void setStatus(OrderStatus status) {
         this.status = status;
+    }
+
+    public List<ProductInOrderEntity> getProductsInOrder() {
+        return productsInOrder;
+    }
+
+    public void setProductsInOrder(List<ProductInOrderEntity> productsInOrder) {
+        this.productsInOrder = productsInOrder;
     }
 
     @Override

@@ -34,7 +34,7 @@ import java.util.Properties;
 @EnableJpaRepositories(basePackages = "com.myCafe")
 @EnableWebMvc
 public class AppConfigImpl extends AppConfig {
-    @Value("10")
+    @Value("${max.upload.size}")
     private int maxUploadSizeInMb;
 
     @Override
@@ -81,12 +81,6 @@ public class AppConfigImpl extends AppConfig {
 
         return entityManagerFactoryBean;
     }
-
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
-        return new PropertySourcesPlaceholderConfigurer();
-    }
-
 
 }
 

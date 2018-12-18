@@ -62,7 +62,7 @@ public class ManagerController {
         Integer userId = Integer.parseInt(request.getParameter("id"));
         CafeTable table = tableService.getTableById(tableId);
         CafeUser waiter = userService.getUserById(userId);
-        table.setUser(waiter);
+        table.setUserId(waiter.getId());
         tableService.unassignTableFromUser(table.getNumber());
         tableService.assignTableToUser(userId, table.getNumber());
         return "redirect:/manager/home";

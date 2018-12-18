@@ -14,11 +14,14 @@ public class ProductEntity {
     @Column(name = "`Name`")
     private String name;
 
-    public ProductEntity (Integer id){
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "product")
+    private ProductInOrderEntity productInOrderEntity;
+
+    public ProductEntity(Integer id) {
         this.id = id;
     }
 
-    public ProductEntity () {
+    public ProductEntity() {
 
     }
 
@@ -36,6 +39,14 @@ public class ProductEntity {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public ProductInOrderEntity getProductInOrderEntity() {
+        return productInOrderEntity;
+    }
+
+    public void setProductInOrderEntity(ProductInOrderEntity productInOrderEntity) {
+        this.productInOrderEntity = productInOrderEntity;
     }
 
     @Override

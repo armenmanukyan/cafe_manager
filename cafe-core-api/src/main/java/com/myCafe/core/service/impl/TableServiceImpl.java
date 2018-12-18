@@ -7,6 +7,7 @@ import com.myCafe.core.dto.CafeUser;
 import com.myCafe.core.service.TableService;
 import com.myCafe.core.service.UserService;
 import com.myCafe.dal.entities.TableEntity;
+import com.myCafe.dal.exceptions.DuplicateEntityException;
 import com.myCafe.dal.repository.TableRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,6 +21,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class TableServiceImpl implements TableService {
+
     @Autowired
     TableRepository tableRepository;
 
@@ -31,9 +33,14 @@ public class TableServiceImpl implements TableService {
 
     @Override
     @Transactional
-    public void addTable(CafeTable table) {
+    public void addTable(CafeTable table) throws DuplicateEntityException {
         Assert.notNull(table, "Table should not be null");
         Assert.notNull(table.getNumber(), "Table number should not be null");
+        boolean isTableAlreadyExists = tableRepository.findByNumber(table.getNumber()).isPresent();
+        if (isTableAlreadyExists) {
+            throw new DuplicateEntityException(String.format("Table with provided id already exists " +
+                    "[%s]", table.getNumber()));
+        }
         tableRepository.save(converter.toEntity(table));
     }
 
@@ -77,7 +84,7 @@ public class TableServiceImpl implements TableService {
         CafeUser user = userService.getUserById(userId);
         CafeTable table = getTableByNumber(tableNumber);
         Assert.isTrue(user.getRole() != null && user.getRole().equals(UserRole.WAITER), "You can't assign table to user with role MANAGER");
-        table.setUser(user);
+        table.setUserId(userId);
         CafeTable storedTable = converter.toModel(tableRepository.saveAndFlush(converter.toEntity(table)));
         return storedTable;
     }
@@ -87,7 +94,7 @@ public class TableServiceImpl implements TableService {
     public void unassignTableFromUser(Integer tableNumber) {
         Assert.notNull(tableNumber, "Table number should not be null");
         CafeTable table = getTableByNumber(tableNumber);
-        table.setUser(null);
+        table.setUserId(null);
         tableRepository.saveAndFlush(converter.toEntity(table));
     }
 

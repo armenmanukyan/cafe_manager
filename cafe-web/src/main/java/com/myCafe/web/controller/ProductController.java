@@ -12,6 +12,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.ModelMap;
+import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -41,6 +42,7 @@ public class ProductController {
     @PreAuthorize("hasAuthority('WAITER')")
     public String addProductInOrder(@PathVariable(name = "id") Integer id, HttpServletRequest request) {
         Integer amount = Integer.parseInt(request.getParameter("amount"));
+        Assert.isTrue(amount > 0,"Amount should be positive number");
         Integer productId = Integer.parseInt(request.getParameter("id"));
         ProductInOrder productInOrder = new ProductInOrder();
         CafeOrder cafeOrder = orderService.getOrder(id);
@@ -64,17 +66,11 @@ public class ProductController {
 
     @RequestMapping(value = "/productInOrder/edit/{id}")
     @PreAuthorize("hasAuthority('WAITER')")
-    public String editProductInOrder(HttpServletRequest request) {
-        Integer orderId = Integer.parseInt(request.getParameter("orderId"));
-        Integer amount = Integer.parseInt(request.getParameter("amount"));
-        Integer productId = Integer.parseInt(request.getParameter("id"));
+    public String editProductInOrder(@PathVariable Integer id,HttpServletRequest request) {
+        ProductInOrder productInOrder =productInOrderService.getProductInOrder(id);
+        Integer amount = Integer.parseInt(request.getParameter("amount").trim().isEmpty() ? productInOrder.getAmount().toString(): request.getParameter("amount"));
         ProductInOrderStatus status = ProductInOrderStatus.valueOf(request.getParameter("status"));
-        ProductInOrder productInOrder = new ProductInOrder();
-        CafeOrder cafeOrder = orderService.getOrder(orderId);
-        CafeProduct cafeProduct = productService.getProductById(productId);
-        productInOrder.setOrder(cafeOrder);
         productInOrder.setAmount(amount);
-        productInOrder.setProduct(cafeProduct);
         productInOrder.setStatus(status);
         productInOrderService.addProductInOrder(productInOrder);
         return "redirect:/waiter";

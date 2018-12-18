@@ -4,6 +4,7 @@ com\myCafe\dal\repository\OrderRepository.class
 com\myCafe\dal\repository\UserRepository.class
 com\myCafe\dal\entities\TableEntity.class
 com\myCafe\dal\entities\OrderEntity.class
+com\myCafe\dal\exceptions\DuplicateEntityException.class
 com\myCafe\dal\repository\ProductRepository.class
 com\myCafe\dal\entities\ProductEntity.class
 com\myCafe\dal\repository\TableRepository.class

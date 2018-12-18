@@ -7,16 +7,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="../../static/css/my.css">
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
     <title>Manager</title>
 </head>
 <body>
@@ -51,16 +44,16 @@
 <table class="table">
     <thead>
     <tr>
-        <th>Id</th>
-        <th>Waiter</th>
+        <th>Number Id</th>
+        <th>Waiter Id</th>
     </tr>
     </thead>
     <tbody>
     <c:forEach items="${tables}" var="table">
         <tr>
-            <td>${table.id}</td>
-            <td>${table.user.firstName}</td>
-            <td><a href="table/update/${table.id}" type="button" class="btn btn-sm btn-warning">update table</a></td>
+            <td>${table.number}</td>
+            <td>${table.getUserId()}</td>
+            <td><a href="table/update/${table.id}" type="button" class="btn btn-sm btn-warning">Update table</a></td>
             </a></td>
         </tr>
     </c:forEach>

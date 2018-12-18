@@ -18,6 +18,7 @@ public interface ProductService {
 
     /**
      * Create product.
+     *
      * @param product
      * @return
      */
@@ -31,7 +32,11 @@ public interface ProductService {
      */
     CafeProduct getProductById(final Integer productId);
 
-
+    /**
+     * Delete product by id
+     *
+     * @param productId
+     */
     void deleteProduct(Integer productId);
 
 }

@@ -7,7 +7,7 @@ import java.util.Objects;
 
 public class CafeOrder {
     private Integer id;
-    private CafeTable table;
+    private Integer tableId;
     private OrderStatus status;
     private List<ProductInOrder> products;
 
@@ -17,14 +17,6 @@ public class CafeOrder {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public CafeTable getTable() {
-        return table;
-    }
-
-    public void setTable(CafeTable table) {
-        this.table = table;
     }
 
     public OrderStatus getStatus() {
@@ -43,19 +35,27 @@ public class CafeOrder {
         this.products = products;
     }
 
+    public Integer getTableId() {
+        return tableId;
+    }
+
+    public void setTableId(Integer tableId) {
+        this.tableId = tableId;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         CafeOrder order = (CafeOrder) o;
         return Objects.equals(id, order.id) &&
-                Objects.equals(table, order.table) &&
-                status == order.status ;
+                Objects.equals(tableId, order.tableId) &&
+                status == order.status;
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(id, table, status, products);
+        return Objects.hash(id, tableId, status, products);
     }
 }

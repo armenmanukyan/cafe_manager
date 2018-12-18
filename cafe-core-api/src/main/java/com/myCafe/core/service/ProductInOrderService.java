@@ -9,6 +9,7 @@ public interface ProductInOrderService {
 
     /**
      * Get product in order by id
+     *
      * @param id
      * @return
      */
@@ -16,18 +17,22 @@ public interface ProductInOrderService {
 
     /**
      * Get orders by order id.
+     *
      * @param orderId
      * @return products which order id is provided id
      */
     List<ProductInOrder> getOrderProducts(Integer orderId);
+
     /**
      * Add product into order.
+     *
      * @return
      */
     CafeOrder addProductInOrder(ProductInOrder productInOrder);
 
     /**
      * Get all product in orders for specific user
+     *
      * @param userId
      * @return
      */

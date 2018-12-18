@@ -33,8 +33,7 @@ public class ServiceHelper {
     protected void validateOrder(CafeOrder order) {
         Assert.notNull(order, "Order should not be null");
         Assert.notNull(order.getStatus(), "Order status should not be null");
-        Assert.notNull(order.getTable(), "Table should not be null");
-        Assert.notNull(order.getTable().getId(), "Table id should not be null");
+        Assert.notNull(order.getTableId(), "Table id should not be null");
     }
 
     protected void validateProductInOrder(ProductInOrder productInOrder) {

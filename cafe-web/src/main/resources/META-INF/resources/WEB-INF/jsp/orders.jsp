@@ -28,10 +28,10 @@
             <c:forEach items="${tableOrders}" var="order">
                 <tr>
                     <td>${order.id}</td>
-                    <td>${order.table.id}</td>
+                    <td>${order.tableId}</td>
                     <td>${order.status}</td>
-                    <td><a href="/productInOrder/add/${order.id}" type="button" class="btn btn-sm btn-success">add product</a></td>
-                    <td><a href="/order/edit/${order.id}" type="button" class="btn btn-sm btn-success">edit</a></td>
+                    <td><a href="/productInOrder/add/${order.id}" type="button" class="btn btn-sm btn-success">Add product</a></td>
+                    <td><a href="/order/edit/${order.id}" type="button" class="btn btn-sm btn-warning">Edit</a></td>
                 </tr>
             </c:forEach>
             </tbody>

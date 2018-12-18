@@ -12,7 +12,7 @@ import javax.persistence.Transient;
 import java.util.List;
 import java.util.Optional;
 
-public interface UserRepository extends JpaRepository<UserEntity,Integer> {
+public interface UserRepository extends JpaRepository<UserEntity, Integer> {
 
     @Transient
     @Modifying
@@ -21,5 +21,5 @@ public interface UserRepository extends JpaRepository<UserEntity,Integer> {
 
     List<UserEntity> findAllByRole(UserRole role);
 
-   Optional<UserEntity>  findByUserName(String userName);
+    Optional<UserEntity> findByUserName(String userName);
 }

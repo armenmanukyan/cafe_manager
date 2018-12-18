@@ -50,11 +50,10 @@ public class WaiterController extends BaseController {
         for (CafeOrder order : tableOrders) {
             productsInOrder.addAll(productInOrderService.getOrderProducts(order.getId()));
         }
-        map.addAttribute("productsInorder",productsInorder);
+        map.addAttribute("productsInorder", productsInorder);
         map.addAttribute("tables", waiterTables);
         map.addAttribute("orders", orders);
         map.addAttribute("tableOrders", tableOrders);
-        map.addAttribute("orderedProducts", productsInOrder);
         map.addAttribute("selectedPageSize", evalPageSize);
         map.addAttribute("pageSizes", PAGE_SIZES);
         map.addAttribute("pager", pager);

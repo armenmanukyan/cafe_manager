@@ -11,6 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @Controller
 @RequestMapping(value = "/order")
 public class OrderController {
@@ -24,13 +26,14 @@ public class OrderController {
     @Transactional
     @PreAuthorize("hasAuthority('WAITER')")
     public String addOrder(@PathVariable Integer id, ModelMap map) {
-        if (orderService.getOrdersByTableId(id).size() != 0) {
+        List<CafeOrder> orderList = orderService.getOrdersByTableId(id);
+        if (orderList.size() > 0 && orderList.stream().anyMatch(e -> e.getStatus().equals(OrderStatus.OPEN))) {
             map.addAttribute("message", "An active order exists");
             return "redirect:/waiter";
         }
         CafeOrder order = new CafeOrder();
         order.setStatus(OrderStatus.CANCELLED);
-        order.setTable(tableService.getTableById(id));
+        order.setTableId(id);
         orderService.openOrder(order);
         return "redirect:/waiter";
     }
@@ -40,7 +43,7 @@ public class OrderController {
     public String editOrder(@PathVariable Integer id, ModelMap modelMap) {
         CafeOrder order = orderService.getOrder(id);
         modelMap.addAttribute("order", order);
-        modelMap.addAttribute("orderStatuses",OrderStatus.values());
+        modelMap.addAttribute("orderStatuses", OrderStatus.values());
         return "updateOrder";
     }
 

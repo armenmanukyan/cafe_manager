@@ -76,7 +76,6 @@ public interface OrderService {
     public List<CafeOrder> getOrdersByTableId(final Integer tableId);
 
 
-
     /**
      * Cancel order by id.
      *
@@ -101,6 +100,7 @@ public interface OrderService {
 
     /**
      * Edit order.
+     *
      * @param order
      */
     void updateStatus(CafeOrder order);

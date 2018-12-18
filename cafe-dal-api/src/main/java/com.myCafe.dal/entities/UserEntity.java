@@ -10,13 +10,14 @@ import java.util.Set;
 @Table(name = "`User`")
 public class UserEntity {
 
-    public UserEntity(Integer id){
+    public UserEntity(Integer id) {
         this.id = id;
     }
 
-    public UserEntity(){
+    public UserEntity() {
 
     }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -37,9 +38,10 @@ public class UserEntity {
     @Column(name = "`Role`", nullable = false, updatable = false)
     private UserRole role;
 
-    @OneToMany(fetch = FetchType.EAGER , cascade = CascadeType.ALL)
-    @JoinTable(name = "`WaiterTables`", joinColumns = {@JoinColumn(name = "`WaiterId`")}, inverseJoinColumns = {@JoinColumn(name = "`TableId`")}
-    )
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "user")
+//    @JoinTable(name = "`WaiterTables`", joinColumns = {@JoinColumn(name = "`WaiterId`")}, inverseJoinColumns = {@JoinColumn(name = "`TableId`")}
+//    )
+
     private Set<TableEntity> assignedTables;
 
     public String getUserName() {

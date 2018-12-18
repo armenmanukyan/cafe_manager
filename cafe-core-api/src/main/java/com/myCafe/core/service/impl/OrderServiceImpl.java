@@ -3,6 +3,7 @@ package com.myCafe.core.service.impl;
 import com.myCafe.common.enums.OrderStatus;
 import com.myCafe.core.converter.Converter;
 import com.myCafe.core.dto.CafeOrder;
+import com.myCafe.core.dto.CafeTable;
 import com.myCafe.core.dto.ProductInOrder;
 import com.myCafe.core.service.helper.ServiceHelper;
 import com.myCafe.core.service.OrderService;
@@ -21,6 +22,7 @@ import org.springframework.util.Assert;
 import org.springframework.util.CollectionUtils;
 
 import javax.persistence.EntityNotFoundException;
+import java.security.InvalidParameterException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
@@ -31,9 +33,6 @@ import java.util.stream.Collectors;
 public class OrderServiceImpl extends ServiceHelper implements OrderService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderServiceImpl.class);
-
-    @Autowired
-    private ProductService productService;
 
     @Autowired
     private OrderService orderService;
@@ -59,7 +58,7 @@ public class OrderServiceImpl extends ServiceHelper implements OrderService {
     @Transactional
     public void closeOrder(Integer id) {
         Assert.notNull(id, "Order id should not be null");
-       OrderEntity orderEntity = orderRepository
+        OrderEntity orderEntity = orderRepository
                 .findById(id)
                 .orElseThrow(() -> {
                     String message = String.format("No order found with id " +
@@ -83,7 +82,7 @@ public class OrderServiceImpl extends ServiceHelper implements OrderService {
                     return new EntityNotFoundException(message);
                 });
 
-        return converter.toModel(orderRepository.getOne(id));
+        return converter.toModel(order);
     }
 
     @Override
@@ -182,8 +181,13 @@ public class OrderServiceImpl extends ServiceHelper implements OrderService {
     @Override
     public void updateStatus(CafeOrder order) {
         CafeOrder storedOrder = orderService.getOrder(order.getId());
+        CafeTable table = tableService.getTableById(storedOrder.getTableId());
+        boolean isOpen = table.getOrders().stream().anyMatch(e -> e.getStatus().equals(OrderStatus.OPEN));
+        if (isOpen && order.getStatus().equals(OrderStatus.OPEN)) {
+            throw new InvalidParameterException("Table has already open order");
+        }
         storedOrder.setStatus(order.getStatus());
         validateOrder(storedOrder);
-        orderRepository.saveAndFlush(converter.toEntity(order));
+        orderRepository.saveAndFlush(converter.toEntity(storedOrder));
     }
 }

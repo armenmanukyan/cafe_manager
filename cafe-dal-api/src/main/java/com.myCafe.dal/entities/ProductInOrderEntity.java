@@ -13,12 +13,12 @@ public class ProductInOrderEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @ManyToOne(fetch = FetchType.LAZY,optional = true)
-    @JoinColumn(name = "`OrderId`")
+    @ManyToOne(fetch = FetchType.LAZY, optional = true)
+   // @JoinColumn(name = "`OrderId`")
     private OrderEntity order;
 
-    @ManyToOne
-    @JoinColumn(name = "`ProductId`")
+    @OneToOne
+   // @JoinColumn(name = "`ProductId`")
     private ProductEntity product;
 
     @Column(name = "`Amount`")

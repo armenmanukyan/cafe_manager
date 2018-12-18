@@ -11,10 +11,9 @@ import org.springframework.web.servlet.view.JstlView;
 
 @ComponentScan
 @SpringBootApplication
-@EnableWebMvc
 public class MainWebApplication implements WebMvcConfigurer {
     public static void main(String[] args) {
-        SpringApplication.run(MainWebApplication.class,args);
+        SpringApplication.run(MainWebApplication.class, args);
     }
 
     @Override

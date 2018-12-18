@@ -7,6 +7,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
+import java.util.Collections;
 import java.util.stream.Collectors;
 
 @Component
@@ -50,8 +51,13 @@ public class Converter {
         TableEntity tableEntity = new TableEntity();
         tableEntity.setId(table.getId());
         tableEntity.setNumber(table.getNumber());
-        if (table.getUser() != null) {
-            tableEntity.setUser(new UserEntity(table.getUser().getId()));
+        if (!CollectionUtils.isEmpty(table.getOrders())) {
+            tableEntity.setOrders(table.getOrders().stream().map(e -> toEntity(e)).collect(Collectors.toList()));
+        } else {
+            tableEntity.setOrders(Collections.emptyList());
+        }
+        if (table.getUserId() != null) {
+            tableEntity.setUser(new UserEntity(table.getUserId()));
         }
         return tableEntity;
     }
@@ -60,11 +66,13 @@ public class Converter {
         if (tableEntity == null) return null;
         CafeTable cafeTable = new CafeTable();
         if (tableEntity.getUser() != null) {
-
-            cafeTable.setUser(toModel(tableEntity.getUser()));
+            cafeTable.setUserId(tableEntity.getUser().getId());
         }
         cafeTable.setId(tableEntity.getId());
         cafeTable.setNumber(tableEntity.getNumber());
+        if (!CollectionUtils.isEmpty(tableEntity.getOrders())) {
+            cafeTable.setOrders(tableEntity.getOrders().stream().map(e -> toModel(e)).collect(Collectors.toList()));
+        }
         return cafeTable;
     }
 
@@ -89,7 +97,7 @@ public class Converter {
         OrderEntity orderEntity = new OrderEntity();
         orderEntity.setId(cafeOrder.getId());
         orderEntity.setStatus(cafeOrder.getStatus());
-        orderEntity.setTable(toEntity(cafeOrder.getTable()));
+        orderEntity.setTable(new TableEntity(cafeOrder.getTableId()));
         return orderEntity;
     }
 
@@ -98,7 +106,9 @@ public class Converter {
         CafeOrder cafeOrder = new CafeOrder();
         cafeOrder.setId(orderEntity.getId());
         cafeOrder.setStatus(orderEntity.getStatus());
-        cafeOrder.setTable(toModel(orderEntity.getTable()));
+        if (orderEntity.getTable() != null) {
+            cafeOrder.setTableId(orderEntity.getTable().getId());
+        }
         return cafeOrder;
     }
 

@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
-public interface TableRepository extends JpaRepository<TableEntity,Integer> {
+public interface TableRepository extends JpaRepository<TableEntity, Integer> {
     @Modifying
     @Transactional
     @Query(value = "UPDATE \"WaiterTables\" SET \"WaiterId\" =:waiterId  WHERE \"WaiterTables\".\"tableId\"=:tableId", nativeQuery = true)

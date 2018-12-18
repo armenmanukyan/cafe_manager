@@ -8,7 +8,7 @@ import java.util.Objects;
 @Table(name = "`CafeTable`")
 public class TableEntity {
 
-    public TableEntity () {
+    public TableEntity() {
 
     }
 
@@ -21,15 +21,15 @@ public class TableEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @ManyToOne(fetch = FetchType.LAZY ,cascade = CascadeType.REFRESH)
-    @JoinColumn(name = "`WaiterId`", nullable = true)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
+//    @JoinColumn(name = "`WaiterId`", nullable = true)
     private UserEntity user;
 
     @Column(name = "`Number`")
     private Integer number;
 
-    @OneToMany
-    @JoinTable(name = "`TableOrders`",joinColumns = {@JoinColumn (name = "TableId")},inverseJoinColumns = {@JoinColumn (name = "OrderId")})
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "table")
+   // @JoinTable(name = "`TableOrders`", joinColumns = {@JoinColumn(name = "TableId")}, inverseJoinColumns = {@JoinColumn(name = "OrderId")})
     private List<OrderEntity> orders;
 
     public Integer getId() {

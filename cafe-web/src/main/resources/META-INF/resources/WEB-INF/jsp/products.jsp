@@ -22,7 +22,7 @@
                     <td>${productInOrder.amount}</td>
                     <td>${productInOrder.getStatus().name()}</td>
                     <td><a href="productInOrder/edit/${productInOrder.id}">
-                        <button type="submit" class="btn btn-sm btn-success"> Edit </button>
+                        <button type="submit" class="btn btn-sm btn-warning"> Edit </button>
                     </a></td>
                 </tr>
             </c:forEach>

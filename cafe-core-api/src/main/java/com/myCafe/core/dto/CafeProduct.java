@@ -4,7 +4,6 @@ import java.util.Objects;
 
 public class CafeProduct {
     private Integer id;
-
     private String name;
 
     public Integer getId() {
