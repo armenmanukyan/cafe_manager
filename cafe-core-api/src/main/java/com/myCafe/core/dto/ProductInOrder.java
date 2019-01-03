@@ -2,12 +2,16 @@ package com.myCafe.core.dto;
 
 import com.myCafe.common.enums.ProductInOrderStatus;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 public class ProductInOrder {
     private ProductInOrderStatus status;
     private CafeProduct product;
     private CafeOrder order;
+    @NotNull(message = "Is required")
+    @Min(value = 1,message = "Amount should be positive")
     private Integer amount;
     private Integer id;
 

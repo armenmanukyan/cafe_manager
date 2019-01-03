@@ -7,17 +7,21 @@
     <link rel="stylesheet" type="text/css" href="../../static/css/my.css">
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <style>
+        .error{color:red}
+    </style>
 </head>
 <body>
 <div class="container">
     <jsp:include page="managerChooser.jsp"/>
     <br><br><br><br>
     <h2>Create New Product</h2>
-    <form:form action="/product" method="post">
+    <%--@elvariable id="cafeProduct" type="com.myCafe.core.dto.CafeProduct"--%>
+    <form:form action="/product" method="post" modelAttribute="cafeProduct">
 
         <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name:"/>
+            Name: <form:input type="text" path="name" class="form-control" id="name"/>
+            <form:errors path="name" cssClass="error"/>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-sm btn-success">Add product</button>

@@ -17,7 +17,7 @@ public class ProductInOrderEntity {
    // @JoinColumn(name = "`OrderId`")
     private OrderEntity order;
 
-    @OneToOne
+    @ManyToOne(fetch = FetchType.LAZY)
    // @JoinColumn(name = "`ProductId`")
     private ProductEntity product;
 

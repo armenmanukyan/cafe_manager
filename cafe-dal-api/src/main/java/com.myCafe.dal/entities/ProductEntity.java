@@ -2,6 +2,7 @@ package com.myCafe.dal.entities;
 
 import javax.persistence.*;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name = "`Product`")
@@ -14,8 +15,8 @@ public class ProductEntity {
     @Column(name = "`Name`")
     private String name;
 
-    @OneToOne(cascade = CascadeType.ALL, mappedBy = "product")
-    private ProductInOrderEntity productInOrderEntity;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "product")
+    private Set<ProductInOrderEntity> productsInOrder;
 
     public ProductEntity(Integer id) {
         this.id = id;
@@ -41,12 +42,12 @@ public class ProductEntity {
         this.name = name;
     }
 
-    public ProductInOrderEntity getProductInOrderEntity() {
-        return productInOrderEntity;
+    public Set<ProductInOrderEntity> getProductsInOrder() {
+        return productsInOrder;
     }
 
-    public void setProductInOrderEntity(ProductInOrderEntity productInOrderEntity) {
-        this.productInOrderEntity = productInOrderEntity;
+    public void setProductsInOrder(Set<ProductInOrderEntity> productsInOrder) {
+        this.productsInOrder = productsInOrder;
     }
 
     @Override

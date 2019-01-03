@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="../../static/css/my.css">
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <style>
+        .error{color:red}
+    </style>
 
     <title>Add Product </title>
 </head>
@@ -18,15 +21,15 @@
 <div class="container">
     <jsp:include page="managerChooser.jsp"/>
     <h2>Update Table</h2>
-    <form:form action="${order.getId()}" method="post">
+    <%--@elvariable id="productInOrder" type="com.myCafe.core.dto.ProductInOrder"--%>
+    <form:form action="${order.getId()}" method="post" modelAttribute="productInOrder">
         <div class="form-group">
             <label for="product">Please select a product:</label>
-            <select class="form-control" id="product" name="id">
-                <c:forEach items="${products}" var="product">
-                    <option name="id" value="${product.getId()}">${product.getName()}</option>
-                </c:forEach>
-            </select>
-            <input type="number" name="amount" placeholder="amount" required/>
+            <form:select class="form-control" id="product" path="product.id" items="${products}" itemValue="id"/>
+            <br><br>
+            Amount: <form:input type="number" path="amount"/>
+            <form:errors path="amount" cssClass="error"/>
+            <br><br>
             <button type="submit" class="btn btn-sm btn-success">Add</button>
         </div>
     </form:form>

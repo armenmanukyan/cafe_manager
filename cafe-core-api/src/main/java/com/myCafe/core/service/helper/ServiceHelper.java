@@ -25,11 +25,6 @@ public class ServiceHelper {
         Assert.isTrue(user == null || !user.isPresent(), "User with provided username already exists");
     }
 
-    public void validateProduct(CafeProduct product) {
-        Assert.notNull(product, "Product should not be null");
-        Assert.notNull(product.getName(), "Product name should not be null");
-    }
-
     protected void validateOrder(CafeOrder order) {
         Assert.notNull(order, "Order should not be null");
         Assert.notNull(order.getStatus(), "Order status should not be null");

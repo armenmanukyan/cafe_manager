@@ -37,7 +37,6 @@ public class ProductServiceImpl extends ServiceHelper implements ProductService 
     @Override
     @Transactional
     public CafeProduct createProduct(CafeProduct product) {
-        validateProduct(product);
         ProductEntity cafeProduct = productRepository.saveAndFlush(converter.toEntity(product));
         return converter.toModel(cafeProduct);
     }

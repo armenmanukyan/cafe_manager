@@ -1,9 +1,13 @@
 package com.myCafe.core.dto;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 public class CafeProduct {
     private Integer id;
+    @NotNull(message = "Is required")
+    @Min(value = 1, message = "Is required")
     private String name;
 
     public Integer getId() {
@@ -35,5 +39,10 @@ public class CafeProduct {
     public int hashCode() {
 
         return Objects.hash(id, name);
+    }
+
+    @Override
+    public String toString() {
+        return getName();
     }
 }
